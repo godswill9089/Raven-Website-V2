@@ -1,0 +1,93 @@
+.hero-container-wrapper {
+  width: 100%;
+}
+.hero-container-wrapper .hero-container-contents {
+  padding: 0 8rem;
+}
+.hero-container-wrapper .hero-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-container-wrapper .RAVEN-ORANGE {
+  color: rgb(230, 151, 4);
+}
+.hero-container-wrapper .hero-texts > h1 {
+  font-size: 5.4rem;
+  text-align: center;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 3.2rem;
+  color: rgb(11, 131, 118);
+}
+.hero-container-wrapper .hero-texts > p {
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.hero-container-wrapper .card-section {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  margin-top: 2rem;
+}
+.hero-container-wrapper .card {
+  flex: 1;
+  max-width: 250px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
+  box-shadow: none !important;
+}
+.hero-container-wrapper .card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.hero-container-wrapper .metrics-section {
+  display: flex;
+  align-items: center;
+  padding: 0 10rem 0rem;
+  gap: 20rem;
+  margin-top: 10rem;
+}
+.hero-container-wrapper .metrics-title h2 {
+  font-size: 3rem !important;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000;
+  margin-right: 20px;
+}
+.hero-container-wrapper .metrics-cards {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.hero-container-wrapper .metric-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-container-wrapper .icon-container {
+  width: 7rem;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container-wrapper .metric-info h3 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002c2b;
+}
+.hero-container-wrapper .metric-info p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #00796b;
+}/*# sourceMappingURL=HeroSection.css.map */

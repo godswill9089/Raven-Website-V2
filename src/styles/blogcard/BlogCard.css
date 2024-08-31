@@ -1,0 +1,76 @@
+.blog-des-main {
+  padding-left: 10rem;
+  /* padding-right: 10rem; */
+  padding: 0 17rem;
+  margin-top: 17rem;
+}
+.blog-des-main .blog-dec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 50rem; */
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.blog-des-main .blog-dec h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.blog-des-main .blog-card-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.blog-des-main .blog-card-list .blog-card {
+  width: 30%;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.blog-des-main .blog-card-list .blog-card-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog-des-main .blog-card-list .blog-card-content {
+  padding: 15px;
+}
+.blog-des-main .blog-card-list .blog-card-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 2.5rem;
+  line-height: 2.4rem;
+}
+.blog-des-main .blog-card-list .blog-card-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 6rem;
+}
+.blog-des-main .blog-card-list .blog-card-link {
+  color: #014345;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.blog-des-main .blog-card-list .blog-card-link .arrow {
+  margin-left: 5px;
+  background-color: #e8fff6;
+  border-radius: 20rem;
+  padding: 0.3rem;
+}
+.blog-des-main .read-more {
+  display: flex;
+  justify-content: center;
+}
+.blog-des-main .read-more button {
+  padding: 2rem;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: #0b8376;
+}/*# sourceMappingURL=BlogCard.css.map */

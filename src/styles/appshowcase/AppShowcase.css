@@ -1,0 +1,55 @@
+.bg-color {
+  background: linear-gradient(180deg, #014345 17.09%, #012223 86.84%);
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  margin-top: 14rem;
+}
+.bg-color .app-showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(6, 71, 73, 0.8117647059);
+  height: 46rem;
+  border-radius: 2rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
+  margin-right: 18rem;
+  margin-left: 18rem;
+}
+.bg-color .app-showcase .showcase-left {
+  flex: 1;
+}
+.bg-color .app-showcase .showcase-left h3 {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+  color: #f6ebeb;
+}
+.bg-color .app-showcase .showcase-slogan {
+  font-size: 1, 4rem;
+  color: #4bdbc4;
+  margin-bottom: 10rem;
+}
+.bg-color .app-showcase .app-store-buttons {
+  display: flex;
+  gap: 20px;
+}
+.bg-color .app-showcase .store-button {
+  width: 150px;
+  cursor: pointer;
+}
+.bg-color .app-showcase .showcase-right {
+  padding-right: 5rem;
+}
+.bg-color .app-showcase .phone-image {
+  width: 25rem;
+  height: auto;
+}
+.bg-color .app-showcase .iphone1 {
+  position: relative;
+  top: 7rem;
+}
+.bg-color .app-showcase .iphone2 {
+  position: absolute;
+  right: 20rem;
+}/*# sourceMappingURL=AppShowcase.css.map */

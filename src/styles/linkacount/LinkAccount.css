@@ -1,0 +1,37 @@
+.link-section-container-wrapper-items {
+  width: 100vw;
+  margin-top: 18rem;
+}
+.link-section-container-wrapper-items .link-content-wrapper {
+  display: flex;
+  padding: 0 17rem;
+  width: 100%;
+}
+.link-section-container-wrapper-items .link-content-wrapper > h1 {
+  font-size: 4rem;
+  flex: 1;
+  color: #014345;
+}
+.link-section-container-wrapper-items .link-content-wrapper p {
+  flex: 0 0 50%;
+}
+.link-section-container-wrapper-items .link-p p {
+  color: #676767;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+.link-section-container-wrapper-items .link-p button {
+  border: none;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: #0b8376;
+  margin-top: 6rem;
+  width: 20rem;
+}
+.link-section-container-wrapper-items .img-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 0 17rem;
+}/*# sourceMappingURL=LinkAccount.css.map */

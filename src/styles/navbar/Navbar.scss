@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  gap: 20rem !important;
+  align-items: center;
+  padding: 3rem 6rem !important;
+  background-color: #ffffff;
+  box-shadow: none !important;
+  justify-content: center !important;
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo img {
+    height: 30px;
+    // margin-right: 10px;
+  }
+
+  .navbar-logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00796b;
+  }
+
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 10rem;
+  }
+
+  .navbar-menu li {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-menu a {
+    text-decoration: none;
+    color: #014345;
+    font-size: 1.4rem;
+  }
+
+  .signin {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .signin-getstarted {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+  }
+
+  .get-started-btn {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .get-started-btn:hover {
+    background-color: #00574b;
+  }
+}

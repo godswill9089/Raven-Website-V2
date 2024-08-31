@@ -1,0 +1,7 @@
+.website-main-layout-box-v-two {
+  width: 100vw;
+  height: 100vh;
+}
+.website-main-layout-box-v-two > * {
+  padding: 0rem 4rem;
+}/*# sourceMappingURL=WebsiteMain.css.map */

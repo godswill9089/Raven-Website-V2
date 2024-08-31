@@ -1,0 +1,57 @@
+.chat-help-container {
+  text-align: center;
+  position: relative;
+  padding: 50px 20px;
+  background: linear-gradient(to top, #fdf7f1, #fff);
+}
+.chat-help-container .chat-wrapper {
+  margin-top: 20rem;
+  min-height: 100%;
+}
+.chat-help-container .chat-header {
+  margin-bottom: 20px;
+}
+.chat-help-container .chat-button {
+  background-color: #fff6ed;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #ea872d;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.chat-help-container .chat-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  line-height: 4rem;
+}
+.chat-help-container .start-chat-button {
+  background-color: #755ae2;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.chat-help-container .chat-birds {
+  position: relative;
+  margin-top: 20px;
+}
+.chat-help-container .bird {
+  position: absolute;
+  width: 120px;
+}
+.chat-help-container .bird-left {
+  left: -2rem;
+  top: -34rem;
+  width: 20%;
+}
+.chat-help-container .bird-right {
+  right: -2rem;
+  top: -35rem;
+  width: 18%;
+}/*# sourceMappingURL=CustoMerCare.css.map */
