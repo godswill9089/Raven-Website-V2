@@ -3,6 +3,8 @@
   padding-top: 14rem;
   padding-bottom: 14rem;
   margin-top: 14rem;
+  @media screen and (max-width: 600px) {
+  }
 
   .app-showcase {
     display: flex;
@@ -15,6 +17,14 @@
     padding-right: 14rem;
     margin-right: 18rem;
     margin-left: 18rem;
+
+    @media screen and (max-width: 600px) {
+      display: block;
+      height: 52rem;
+      padding: 3rem 5rem;
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
 
     .showcase-left {
       flex: 1;
@@ -29,6 +39,9 @@
       font-size: 1, 4rem;
       color: #4bdbc4;
       margin-bottom: 10rem;
+      @media screen and (max-width: 600px) {
+        margin-bottom: 4rem;
+      }
     }
     .app-store-buttons {
       display: flex;
@@ -40,6 +53,9 @@
     }
     .showcase-right {
       padding-right: 5rem;
+      @media screen and (max-width: 600px) {
+        margin-top: 3rem;
+      }
     }
     .phone-image {
       width: 25rem;
@@ -49,10 +65,17 @@
       position: relative;
       top: 7rem;
       // right: 10rem;
+      @media screen and (max-width: 600px) {
+        height: 17rem;
+      }
     }
     .iphone2 {
       position: absolute;
       right: 20rem;
+      @media screen and (max-width: 600px) {
+        right: 5rem;
+        height: 24rem;
+      }
     }
   }
 }

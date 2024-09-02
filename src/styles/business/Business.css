@@ -23,6 +23,11 @@
   font-weight: bold;
   margin: 10px 0;
 }
+@media screen and (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+}
 .hero-section .highlight {
   color: #ff8c00; /* Use a contrasting color */
 }
@@ -35,6 +40,11 @@
   display: flex;
   gap: 15px;
   justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .hero-section .buttons {
+    display: block;
+  }
 }
 .hero-section .primary-button,
 .hero-section .secondary-button {
@@ -54,6 +64,13 @@
   border: 1px solid #fff;
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .hero-section .secondary-button {
+    display: unset;
+    align-items: unset;
+    margin-top: 3rem;
+  }
 }
 .hero-section .arrow {
   margin-left: 5px;

@@ -2,6 +2,9 @@
   padding: 0 17rem;
   text-align: center;
   margin-top: 10rem;
+  @media screen and (max-width: 600px) {
+    padding: 0 2rem;
+  }
 
   .services-heading {
     color: #00a693;

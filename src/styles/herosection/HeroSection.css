@@ -4,6 +4,11 @@
 .hero-container-wrapper .hero-container-contents {
   padding: 0 8rem;
 }
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .hero-container-contents {
+    padding: 0 2rem;
+  }
+}
 .hero-container-wrapper .hero-texts {
   display: flex;
   flex-direction: column;
@@ -20,6 +25,12 @@
   margin-top: 3.2rem;
   color: rgb(11, 131, 118);
 }
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .hero-texts > h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
 .hero-container-wrapper .hero-texts > p {
   text-align: center;
   line-height: 2rem;
@@ -30,6 +41,13 @@
   justify-content: center;
   padding: 5rem;
   margin-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+  }
 }
 .hero-container-wrapper .card {
   flex: 1;
@@ -56,6 +74,13 @@
   gap: 20rem;
   margin-top: 10rem;
 }
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .metrics-section {
+    display: block;
+    padding: 0 2rem;
+    margin-top: 8rem;
+  }
+}
 .hero-container-wrapper .metrics-title h2 {
   font-size: 3rem !important;
   font-weight: bold;
@@ -68,10 +93,20 @@
   align-items: center;
   gap: 10rem;
 }
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .metrics-cards {
+    display: block;
+  }
+}
 .hero-container-wrapper .metric-card {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+@media screen and (max-width: 600px) {
+  .hero-container-wrapper .metric-card {
+    margin: 4rem 0rem 4rem;
+  }
 }
 .hero-container-wrapper .icon-container {
   width: 7rem;

@@ -32,8 +32,7 @@ const MetricsSection: React.FC = () => {
   return (
     <div className="metrics-section">
       <div className="metrics-title">
-        <h2>Mindblowing</h2>
-        <h2>Metrics</h2>
+        <h2>Mindblowing Metrics</h2>
       </div>
       <div className="metrics-cards">
         {metrics.map((metric) => (

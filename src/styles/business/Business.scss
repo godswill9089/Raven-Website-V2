@@ -22,6 +22,9 @@
     font-size: 36px;
     font-weight: bold;
     margin: 10px 0;
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
   }
   .highlight {
     color: #ff8c00; /* Use a contrasting color */
@@ -35,6 +38,9 @@
     display: flex;
     gap: 15px;
     justify-content: center;
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
   }
   .primary-button,
   .secondary-button {
@@ -54,6 +60,11 @@
     border: 1px solid #fff;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 600px) {
+      display: unset;
+      align-items: unset;
+      margin-top: 3rem;
+    }
   }
   .arrow {
     margin-left: 5px;

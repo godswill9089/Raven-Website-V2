@@ -4,6 +4,10 @@
   gap: 3rem;
   padding: 0 17rem;
   margin-top: 6rem;
+  @media screen and (max-width: 600px) {
+    display: block;
+    padding: 0 2rem;
+  }
 
   .grid-item {
     background-color: #fff;
@@ -35,6 +39,10 @@
     top: 20.3rem;
     left: 27rem;
     bottom: rem;
+    @media screen and (max-width: 600px) {
+      top: 23.3rem;
+      left: 24rem;
+    }
   }
 
   .secured {
@@ -43,6 +51,10 @@
     /* margin-top: 6.5rem !important; */
     top: 14rem;
     left: 26.6rem;
+    @media screen and (max-width: 600px) {
+      top: 17rem;
+      left: 23.6rem;
+    }
   }
 
   .save {
@@ -51,6 +63,10 @@
     /* margin-top: 6.7rem !important; */
     top: 16.3rem;
     left: 29rem;
+    @media screen and (max-width: 600px) {
+      top: 19rem;
+      left: 25.6rem;
+    }
   }
 
   .feature-title {
@@ -70,6 +86,9 @@
     height: 45rem;
     color: #0b8376;
     position: relative;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .grid-item:nth-child(2) {
@@ -77,6 +96,9 @@
     height: 45rem;
     color: #ea872d;
     position: relative;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .grid-item:nth-child(3) {
@@ -84,6 +106,9 @@
     height: 45rem;
     color: #755ae2;
     position: relative;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .grid-item:nth-child(4) {
@@ -91,11 +116,10 @@
     height: 45rem;
     color: #476885;
     position: relative;
-  }
 
-  @media (max-width: 768px) {
-    .grid-container {
+    @media (max-width: 768px) {
       grid-template-columns: 1fr;
+      margin-bottom: 2rem;
     }
   }
 }

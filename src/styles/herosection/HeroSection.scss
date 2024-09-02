@@ -3,6 +3,9 @@
 
   .hero-container-contents {
     padding: 0 8rem;
+    @media screen and (max-width: 600px) {
+      padding: 0 2rem;
+    }
   }
 
   .hero-texts {
@@ -22,6 +25,10 @@
     margin-bottom: 2rem;
     margin-top: 3.2rem;
     color: rgba(11, 131, 118, 1);
+    @media screen and (max-width: 600px) {
+      font-size: 4rem;
+      line-height: 5rem;
+    }
   }
 
   .hero-texts > p {
@@ -36,6 +43,11 @@
     // gap: 2rem;
     padding: 5rem;
     margin-top: 2rem;
+    @media screen and (max-width: 600px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0rem;
+    }
   }
 
   .card {
@@ -63,6 +75,11 @@
     justify-content: center;
     gap: 20rem;
     margin-top: 10rem;
+    @media screen and (max-width: 600px) {
+      display: block;
+      padding: 0 2rem;
+      margin-top: 8rem;
+    }
   }
 
   .metrics-title h2 {
@@ -77,12 +94,18 @@
     display: flex;
     align-items: center;
     gap: 10rem;
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
   }
 
   .metric-card {
     display: flex;
     align-items: center;
     gap: 10px;
+    @media screen and (max-width: 600px) {
+      margin: 4rem 0rem 4rem;
+    }
   }
 
   .icon-container {

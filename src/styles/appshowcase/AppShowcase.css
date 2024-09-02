@@ -16,6 +16,15 @@
   margin-right: 18rem;
   margin-left: 18rem;
 }
+@media screen and (max-width: 600px) {
+  .bg-color .app-showcase {
+    display: block;
+    height: 52rem;
+    padding: 3rem 5rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
 .bg-color .app-showcase .showcase-left {
   flex: 1;
 }
@@ -30,6 +39,11 @@
   color: #4bdbc4;
   margin-bottom: 10rem;
 }
+@media screen and (max-width: 600px) {
+  .bg-color .app-showcase .showcase-slogan {
+    margin-bottom: 4rem;
+  }
+}
 .bg-color .app-showcase .app-store-buttons {
   display: flex;
   gap: 20px;
@@ -41,6 +55,11 @@
 .bg-color .app-showcase .showcase-right {
   padding-right: 5rem;
 }
+@media screen and (max-width: 600px) {
+  .bg-color .app-showcase .showcase-right {
+    margin-top: 3rem;
+  }
+}
 .bg-color .app-showcase .phone-image {
   width: 25rem;
   height: auto;
@@ -49,7 +68,18 @@
   position: relative;
   top: 7rem;
 }
+@media screen and (max-width: 600px) {
+  .bg-color .app-showcase .iphone1 {
+    height: 17rem;
+  }
+}
 .bg-color .app-showcase .iphone2 {
   position: absolute;
   right: 20rem;
+}
+@media screen and (max-width: 600px) {
+  .bg-color .app-showcase .iphone2 {
+    right: 5rem;
+    height: 24rem;
+  }
 }/*# sourceMappingURL=AppShowcase.css.map */

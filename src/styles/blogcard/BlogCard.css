@@ -4,6 +4,13 @@
   padding: 0 17rem;
   margin-top: 17rem;
 }
+@media screen and (max-width: 600px) {
+  .blog-des-main {
+    padding-left: 0rem;
+    padding: 0 2rem;
+    margin-top: 8rem;
+  }
+}
 .blog-des-main .blog-dec {
   display: flex;
   align-items: center;
@@ -12,9 +19,21 @@
   padding-left: 5rem;
   padding-right: 5rem;
 }
+@media screen and (max-width: 600px) {
+  .blog-des-main .blog-dec {
+    padding: 0 0rem;
+    display: block;
+  }
+}
 .blog-des-main .blog-dec h1 {
   font-size: 3rem;
   line-height: 4rem;
+}
+@media screen and (max-width: 600px) {
+  .blog-des-main .blog-dec h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 }
 .blog-des-main .blog-card-list {
   display: flex;
@@ -22,11 +41,21 @@
   gap: 2rem;
   margin-top: 5rem;
 }
+@media screen and (max-width: 600px) {
+  .blog-des-main .blog-card-list {
+    display: block;
+  }
+}
 .blog-des-main .blog-card-list .blog-card {
   width: 30%;
   background-color: white;
   overflow: hidden;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  .blog-des-main .blog-card-list .blog-card {
+    width: 100%;
+  }
 }
 .blog-des-main .blog-card-list .blog-card-image {
   width: 100%;
@@ -64,6 +93,12 @@
 .blog-des-main .read-more {
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .blog-des-main .read-more {
+    justify-content: unset;
+    margin-top: 2rem;
+  }
 }
 .blog-des-main .read-more button {
   padding: 2rem;

@@ -1,17 +1,32 @@
 .link-section-container-wrapper-items {
   width: 100vw;
   margin-top: 18rem;
+  @media screen and (max-width: 600px) {
+    margin-top: 10rem;
+  }
 
   .link-content-wrapper {
     display: flex;
     padding: 0 17rem;
     width: 100%;
   }
+  @media screen and (max-width: 600px) {
+    .link-content-wrapper {
+      display: block;
+      padding: 0 2rem;
+    }
+  }
 
   .link-content-wrapper > h1 {
     font-size: 4rem;
     flex: 1;
     color: #014345;
+  }
+  @media screen and (max-width: 600px) {
+    .link-content-wrapper > h1 {
+      text-align: center;
+      font-size: 3rem;
+    }
   }
 
   .link-content-wrapper p {
@@ -23,6 +38,17 @@
     font-size: 1.5rem;
     line-height: 2.4rem;
   }
+  @media screen and (max-width: 600px) {
+    .link-p p {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1.8rem;
+      justify-content: center;
+      display: flex;
+      /* padding-left: 5rem; */
+      line-height: 2.9rem;
+    }
+  }
 
   .link-p button {
     border: none;
@@ -33,11 +59,23 @@
     margin-top: 6rem;
     width: 20rem;
   }
+  @media screen and (max-width: 600px) {
+    .link-p button {
+      justify-content: center;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4rem;
+    }
+  }
 
   .img-link {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
     padding: 0 17rem;
+    @media screen and (max-width: 600px) {
+      padding: 0 2rem;
+    }
   }
 }

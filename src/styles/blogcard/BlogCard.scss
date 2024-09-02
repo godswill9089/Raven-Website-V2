@@ -3,6 +3,11 @@
   /* padding-right: 10rem; */
   padding: 0 17rem;
   margin-top: 17rem;
+  @media screen and (max-width: 600px) {
+    padding-left: 0rem;
+    padding: 0 2rem;
+    margin-top: 8rem;
+  }
 
   .blog-dec {
     display: flex;
@@ -11,10 +16,19 @@
     /* gap: 50rem; */
     padding-left: 5rem;
     padding-right: 5rem;
+    @media screen and (max-width: 600px) {
+      padding: 0 0rem;
+      display: block;
+    }
   }
+
   .blog-dec h1 {
     font-size: 3rem;
     line-height: 4rem;
+    @media screen and (max-width: 600px) {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
   }
   .blog-card-list {
     display: flex;
@@ -22,6 +36,9 @@
     // padding: 20px;
     gap: 2rem;
     margin-top: 5rem;
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
 
     .blog-card {
       width: 30%;
@@ -30,6 +47,9 @@
       overflow: hidden;
       //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
     }
     .blog-card-image {
       width: 100%;
@@ -67,6 +87,10 @@
   .read-more {
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 600px) {
+      justify-content: unset;
+      margin-top: 2rem;
+    }
   }
   .read-more button {
     padding: 2rem;

@@ -35,6 +35,8 @@ import link3 from "../../assets/Group 108.png";
 import qr from "../../assets/QR Code.png";
 import vector1 from "../../assets/Vector (1).png";
 import vector2 from "../../assets/Vector (2).png";
+import menu from "../../assets/menu.png";
+import x from "../../assets/x.png";
 
 export const useIcon = () => {
   return {
@@ -75,5 +77,7 @@ export const useIcon = () => {
     qr,
     vector1,
     vector2,
+    menu,
+    x,
   };
 };

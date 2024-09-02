@@ -8,6 +8,9 @@
   .chat-wrapper {
     margin-top: 20rem;
     min-height: 100%;
+    @media screen and (max-width: 600px) {
+      margin-top: 8rem;
+    }
   }
   .chat-header {
     margin-bottom: 20px;
@@ -37,6 +40,9 @@
     font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
+    @media screen and (max-width: 600px) {
+      margin-top: 0rem;
+    }
   }
   .chat-birds {
     position: relative;
@@ -50,10 +56,20 @@
     left: -2rem;
     top: -34rem;
     width: 20%;
+    @media screen and (max-width: 600px) {
+      padding: 0 2rem;
+      //   top: 0rem;
+      margin-top: 32rem;
+      left: 20rem;
+      width: 10rem !important;
+    }
   }
   .bird-right {
     right: -2rem;
     top: -35rem;
     width: 18%;
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
   }
 }

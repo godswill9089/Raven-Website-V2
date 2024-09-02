@@ -3,6 +3,11 @@
   text-align: center;
   margin-top: 10rem;
 }
+@media screen and (max-width: 600px) {
+  .services-section {
+    padding: 0 2rem;
+  }
+}
 .services-section .services-heading {
   color: #00a693;
   font-size: 1.2rem;
