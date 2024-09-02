@@ -25,6 +25,12 @@
     margin-left: 0rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .bg-color .app-showcase {
+    padding: 3rem 3rem;
+    height: 55rem;
+  }
+}
 .bg-color .app-showcase .showcase-left {
   flex: 1;
 }
@@ -58,6 +64,11 @@
 @media screen and (max-width: 600px) {
   .bg-color .app-showcase .showcase-right {
     margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .bg-color .app-showcase .showcase-right {
+    margin-left: 2rem;
   }
 }
 .bg-color .app-showcase .phone-image {

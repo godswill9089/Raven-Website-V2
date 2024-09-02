@@ -43,6 +43,10 @@
       top: 23.3rem;
       left: 24rem;
     }
+    @media screen and (max-width: 360px) {
+      top: 25.9rem;
+      left: 20.6rem;
+    }
   }
 
   .secured {
@@ -55,6 +59,10 @@
       top: 17rem;
       left: 23.6rem;
     }
+    @media screen and (max-width: 360px) {
+      top: 21rem;
+      left: 20.6rem;
+    }
   }
 
   .save {
@@ -66,6 +74,10 @@
     @media screen and (max-width: 600px) {
       top: 19rem;
       left: 25.6rem;
+    }
+    @media screen and (max-width: 360px) {
+      top: 23rem;
+      left: 21.6rem;
     }
   }
 

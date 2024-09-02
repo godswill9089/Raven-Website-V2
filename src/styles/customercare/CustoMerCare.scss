@@ -42,6 +42,7 @@
     margin-top: 20px;
     @media screen and (max-width: 600px) {
       margin-top: 0rem;
+      padding: 2rem;
     }
   }
   .chat-birds {
@@ -62,6 +63,9 @@
       margin-top: 32rem;
       left: 20rem;
       width: 10rem !important;
+    }
+    @media screen and (max-width: 360px) {
+      left: 16rem;
     }
   }
   .bird-right {
