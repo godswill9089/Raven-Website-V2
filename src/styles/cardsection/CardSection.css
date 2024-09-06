@@ -50,12 +50,6 @@
     left: 20.6rem;
   }
 }
-@media only screen and (max-width: 390px) {
-  .grid-container .data {
-    top: 23.9rem;
-    left: 22.6rem;
-  }
-}
 .grid-container .secured {
   width: 50% !important;
   /* margin-left: 22.5rem; */
@@ -73,12 +67,6 @@
   .grid-container .secured {
     top: 21rem;
     left: 20.6rem;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .grid-container .secured {
-    top: 18.9rem;
-    left: 22.6rem;
   }
 }
 .grid-container .save {
