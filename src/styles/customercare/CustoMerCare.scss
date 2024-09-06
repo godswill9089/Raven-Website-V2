@@ -51,6 +51,9 @@
   .chat-birds {
     position: relative;
     margin-top: 20px;
+    @media screen and (max-width: 600px) {
+      margin-top: 0px;
+    }
   }
   .bird {
     position: absolute;
@@ -61,13 +64,7 @@
     top: -34rem;
     width: 20%;
     @media screen and (max-width: 600px) {
-      padding: 0 2rem;
-      margin-top: 29rem;
-      left: 16rem;
-      width: 25rem !important;
-    }
-    @media screen and (max-width: 360px) {
-      left: 16rem;
+      display: none;
     }
   }
   .bird-right {
@@ -76,6 +73,14 @@
     width: 18%;
     @media screen and (max-width: 600px) {
       display: none;
+    }
+  }
+  .bird3 {
+    display: none;
+    @media screen and (max-width: 600px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

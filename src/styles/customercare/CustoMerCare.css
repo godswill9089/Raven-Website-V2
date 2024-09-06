@@ -57,6 +57,11 @@
   position: relative;
   margin-top: 20px;
 }
+@media screen and (max-width: 600px) {
+  .chat-help-container .chat-birds {
+    margin-top: 0px;
+  }
+}
 .chat-help-container .bird {
   position: absolute;
   width: 120px;
@@ -68,15 +73,7 @@
 }
 @media screen and (max-width: 600px) {
   .chat-help-container .bird-left {
-    padding: 0 2rem;
-    margin-top: 29rem;
-    left: 16rem;
-    width: 25rem !important;
-  }
-}
-@media screen and (max-width: 360px) {
-  .chat-help-container .bird-left {
-    left: 16rem;
+    display: none;
   }
 }
 .chat-help-container .bird-right {
@@ -87,5 +84,15 @@
 @media screen and (max-width: 600px) {
   .chat-help-container .bird-right {
     display: none;
+  }
+}
+.chat-help-container .bird3 {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .chat-help-container .bird3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }/*# sourceMappingURL=CustoMerCare.css.map */

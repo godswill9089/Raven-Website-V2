@@ -3,7 +3,7 @@ import "../../../styles/customercare/CustoMerCare.css";
 import { useIcon } from "../../hooks/useIcon";
 
 const CustoMercareSection = () => {
-  const { chat, chat2 } = useIcon();
+  const { chat, chat2, cha } = useIcon();
 
   return (
     <div className="chat-help-container">
@@ -18,6 +18,7 @@ const CustoMercareSection = () => {
         <div className="chat-birds">
           <img src={chat} alt="Bird Left" className="bird bird-left" />
           <img src={chat2} alt="Bird Right" className="bird bird-right" />
+          <img src={cha} alt="Bird Right" className="bird3" />
         </div>
       </div>
     </div>
