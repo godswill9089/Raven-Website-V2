@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 600px) {
   .chat-help-container {
-    height: 55vh;
+    padding-bottom: 0px;
   }
 }
 .chat-help-container .chat-wrapper {

@@ -8,6 +8,8 @@
   padding-top: 10rem;
   background-color: #1a1a1a;
   color: white;
+  @media screen and (max-width: 600px) {
+  }
 
   .text-container {
     max-width: 600px;
