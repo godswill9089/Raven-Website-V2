@@ -43,7 +43,10 @@
 }
 @media screen and (max-width: 600px) {
   .blog-des-main .blog-card-list {
-    display: block;
+    padding: 0;
+    flex-wrap: unset;
+    display: -webkit-inline-box;
+    overflow-x: scroll;
   }
 }
 .blog-des-main .blog-card-list .blog-card {

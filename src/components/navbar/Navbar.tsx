@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../../styles/navbar/Navbar.css";
-// import WebsiteMain from "../../layout/WebsiteMain";
 import { NavLink } from "react-router-dom";
 import { ROUTENAMES } from "../../routes/RouteNames";
 import { useIcon } from "../hooks/useIcon";
@@ -25,30 +24,24 @@ const Navbar: React.FC = () => {
       <div className="navbar-logo">
         <img src={logo} alt="RavenBank Logo" />
       </div>
-      <button className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+      <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? (
           <span>
-            {" "}
-            <img src={x} alt="" className="close" />
-          </span> // Close (X) icon
+            <img src={x} alt="Close Menu" className="close" />
+          </span>
         ) : (
           <span>
-            {" "}
-            <img src={menu} alt="" className="toggle" />
-          </span> // Hamburger menu icon
+            <img src={menu} alt="Open Menu" className="toggle" />
+          </span>
         )}
-      </button>
+      </div>
       <ul className={`navbar-menu ${isMobileMenuOpen ? "open" : ""}`}>
-        {navLinks.map((link, index) => (
-          <li key={index}>
+        {navLinks.map((link) => (
+          <li key={link.text}>
             <NavLink to={link.route} className="link-path">
-              {link.text}{" "}
-              <img
-                src={dropdown}
-                alt="Dropdown Icon"
-                className="dropdown-icon"
-              />
+              {link.text}
             </NavLink>
+            <img src={dropdown} alt="Dropdown Icon" className="dropdown-icon" />
           </li>
         ))}
       </ul>
@@ -56,9 +49,9 @@ const Navbar: React.FC = () => {
         <div>
           <button className="signin">Sign In</button>
         </div>
-        <li>
+        <div>
           <button className="get-started-btn">Get Started</button>
-        </li>
+        </div>
       </div>
     </nav>
   );

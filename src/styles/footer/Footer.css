@@ -1,4 +1,4 @@
-footer {
+.footer-line footer {
   display: flex;
   justify-content: space-between;
   /* background-color: #000; */
@@ -10,58 +10,86 @@ footer {
   margin-top: 10rem;
 }
 @media screen and (max-width: 600px) {
-  footer {
+  .footer-line footer {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    justify-content: center;
+    justify-items: flex-start;
     padding: 0 2rem;
     width: 100%;
-    gap: 5rem;
+    /* gap: 5rem; */
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 }
-footer .footer-section {
+.footer-line footer .footer-section {
   margin: 10px;
 }
-footer .footer-section h3 {
+.footer-line footer .footer-section h3 {
   font-weight: 400;
   font-size: 2rem;
   /* font-weight: 300; */
   color: rgba(204, 204, 204, 0.4705882353);
 }
-footer .footer-section ul {
+.footer-line footer .footer-section ul {
   list-style: none;
   padding: 0;
 }
-footer .footer-section li {
+.footer-line footer .footer-section li {
   margin: 3rem 0;
   font-size: 1.3rem;
 }
-footer .footer-qr-social {
+.footer-line footer .footer-qr-social {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-footer .qr-code img {
+@media screen and (max-width: 600px) {
+  .footer-line footer .footer-qr-social {
+    display: block;
+  }
+}
+.footer-line footer .qr-code img {
   width: 100px;
   height: 100px;
 }
-footer .social-icons {
+.footer-line footer .social-icons {
   display: flex;
   justify-content: space-between;
   /* width: 100px; */
   gap: 2rem;
   margin-top: 2rem;
 }
-footer .social-icons a {
+.footer-line footer .social-icons a {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
-footer .social-icons i {
+.footer-line footer .social-icons i {
   transition: color 0.3s ease;
 }
-footer .social-icons i:hover {
+.footer-line footer .social-icons i:hover {
   color: #ccc;
+}
+.footer-line .footer-end {
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+@media screen and (max-width: 600px) {
+  .footer-line .footer-end {
+    padding: 0 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+.footer-line .line-end {
+  width: 100%;
+  height: 0.1px;
+  background-color: rgba(188, 185, 185, 0.3137254902);
+  margin-bottom: 3rem;
+}
+.footer-line .footer-end-text {
+  color: rgba(212, 212, 212, 0.693);
+  line-height: 3rem;
 }/*# sourceMappingURL=Footer.css.map */

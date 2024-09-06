@@ -37,7 +37,10 @@
     gap: 2rem;
     margin-top: 5rem;
     @media screen and (max-width: 600px) {
-      display: block;
+      padding: 0;
+      flex-wrap: unset;
+      display: -webkit-inline-box;
+      overflow-x: scroll;
     }
 
     .blog-card {

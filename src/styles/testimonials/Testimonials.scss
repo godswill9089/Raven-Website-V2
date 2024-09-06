@@ -34,12 +34,10 @@
     }
   }
   .testimonials-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* padding-right: 6rem; */
-    /* padding-left: 6rem; */
-    padding: 0 13rem;
+    padding: 0;
+    flex-wrap: unset;
+    display: -webkit-inline-box;
+    overflow-x: scroll;
     @media screen and (max-width: 600px) {
       padding: 0;
     }

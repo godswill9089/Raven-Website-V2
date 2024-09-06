@@ -39,13 +39,17 @@
     top: 20.3rem;
     left: 27rem;
     bottom: rem;
-    @media screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
       top: 23.3rem;
       left: 24rem;
     }
-    @media screen and (max-width: 360px) {
+    @media only screen and (max-width: 360px) {
       top: 25.9rem;
       left: 20.6rem;
+    }
+    @media only screen and (max-width: 390px) {
+      top: 23.9rem;
+      left: 22.6rem;
     }
   }
 
@@ -62,6 +66,10 @@
     @media screen and (max-width: 360px) {
       top: 21rem;
       left: 20.6rem;
+    }
+    @media only screen and (max-width: 390px) {
+      top: 18.9rem;
+      left: 22.6rem;
     }
   }
 

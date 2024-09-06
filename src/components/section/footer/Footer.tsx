@@ -66,6 +66,17 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </footer>
+        <div className="footer-end">
+          <div className="line-end"></div>
+          <p className="footer-end-text">
+            All Deposits Are Insured By The Nigerian Deposit Insurance
+            Corporation (NDIC). Raven Bank Is powered by Beststar MFB a Licensed
+            MF Bank <br />
+            by the Central Bank Of Nigeria. “Raven” and “RavenBank” are
+            trademarks of Ravenpay LTD. Plot 20 Layi Yusuf Crescent, off
+            Admiralty way, Lekki Lagos.
+          </p>
+        </div>
       </div>
     </>
   );

@@ -4,6 +4,11 @@
   padding: 50px 20px;
   background: linear-gradient(to top, #fdf7f1, #fff);
 }
+@media screen and (max-width: 600px) {
+  .chat-help-container {
+    height: 55vh;
+  }
+}
 .chat-help-container .chat-wrapper {
   margin-top: 20rem;
   min-height: 100%;
@@ -64,9 +69,9 @@
 @media screen and (max-width: 600px) {
   .chat-help-container .bird-left {
     padding: 0 2rem;
-    margin-top: 32rem;
-    left: 20rem;
-    width: 10rem !important;
+    margin-top: 29rem;
+    left: 16rem;
+    width: 25rem !important;
   }
 }
 @media screen and (max-width: 360px) {
