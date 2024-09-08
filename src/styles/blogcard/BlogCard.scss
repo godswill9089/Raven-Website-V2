@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: space-between;
     /* gap: 50rem; */
-    padding-left: 5rem;
-    padding-right: 5rem;
+    // padding-left: 5rem;
+    // padding-right: 5rem;
     @media screen and (max-width: 600px) {
       padding: 0 0rem;
       display: block;
@@ -32,7 +32,7 @@
   }
   .blog-card-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     // padding: 20px;
     gap: 2rem;
     margin-top: 5rem;
@@ -90,9 +90,16 @@
   .read-more {
     display: flex;
     justify-content: center;
+    background-color: #0b8376;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+
     @media screen and (max-width: 600px) {
-      justify-content: unset;
+      //   justify-content: unset;
       margin-top: 2rem;
+      width: 20rem;
     }
   }
   .read-more button {

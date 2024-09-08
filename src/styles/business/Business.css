@@ -70,6 +70,7 @@
     display: unset;
     align-items: unset;
     margin-top: 3rem;
+    border: none;
   }
 }
 .hero-section .arrow {

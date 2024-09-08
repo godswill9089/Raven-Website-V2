@@ -22,7 +22,10 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="RavenBank Logo" />
+        <NavLink to="/">
+          {" "}
+          <img src={logo} alt="RavenBank Logo" />
+        </NavLink>
       </div>
       <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? (

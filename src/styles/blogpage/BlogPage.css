@@ -1,0 +1,121 @@
+.blog-list {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.blog-list .head-t {
+  color: #0b8376;
+  background-color: #e8fff6;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  margin-bottom: 4rem;
+}
+.blog-list .raven-r {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+.blog-list .tab-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  .blog-list .tab-button {
+    width: 100%;
+    display: flex;
+    font-size: 1.1rem;
+    /* margin-right: 0; */
+    overflow: hidden;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px !important;
+  }
+}
+.blog-list .tab-button.active {
+  color: #0b8376;
+  background-color: #e8fff6;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.blog-list .tab-content {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.blog-list .tabs-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+@media screen and (max-width: 600px) {
+  .blog-list .tabs-container {
+    padding: 0 2rem 2rem;
+  }
+}
+.blog-list .-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media screen and (max-width: 900px) {
+  .blog-list .-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+.blog-list .cardss {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .blog-list .cardss {
+    padding: 0rem;
+  }
+}
+.blog-list .cardss img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.blog-list .blog-info {
+  margin-top: 15px;
+}
+.blog-list .blog-category {
+  font-size: 12px;
+  color: #00b386;
+  text-transform: uppercase;
+}
+.blog-list .blog-date {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.blog-list .blog-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 10px 0;
+  line-height: 3rem;
+}
+.blog-list .read-more {
+  color: #00b386;
+  text-decoration: none;
+  font-weight: bold;
+}
+.blog-list .load-more {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=BlogPage.css.map */
