@@ -1,0 +1,126 @@
+.vision-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10rem;
+
+  .vision-section {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    // text-align: center;
+    width: 100%;
+    height: 55vh;
+    // padding-top: 20rem;
+    // padding-bottom: 20rem;
+    padding-left: 30rem;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      padding-left: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+  .mission-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    width: 100%;
+    padding-left: 30rem;
+    height: 55vh;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      padding-left: 5rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .vision-section {
+    background-color: rgba(240, 255, 249, 1);
+  }
+
+  .mission-section {
+    background-color: #ffeadb;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 768px) {
+      font-size: 3rem !important;
+    }
+  }
+
+  .vision-section .title {
+    color: rgba(16, 188, 170, 1);
+    font-size: 5rem;
+  }
+
+  .mission-section .title {
+    color: #f7931e;
+    font-size: 5rem;
+  }
+
+  .description {
+    font-size: 2rem;
+    color: #2e3a59;
+    line-height: 1.6;
+  }
+
+  .vision-section::before {
+    content: url("../../assets/Vector\ \(3\).png");
+    position: absolute;
+    top: 0;
+    left: 63%;
+    // transform: translateX(-50%);
+    // width: 80%;
+    // height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50;
+    @media only screen and (max-width: 768px) {
+      left: 0%;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+  .mission-section::before {
+    content: url("../../assets/Vector\ \(4\).png");
+    position: absolute;
+    top: 0;
+    right: 63%;
+    // transform: translateX(-50%);
+    // width: 80%;
+    // height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 50;
+    @media only screen and (max-width: 768px) {
+      right: 20%;
+      //   width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  //   .vision-section::before {
+  //     background-image: url("../../assets/Vector\ \(3\).png");
+  //     opacity: 5;
+  //     width: 20%;
+  //     position: absolute;
+  //     right: 0;
+  //     margin-left: auto;
+  //   }
+
+  .feda1 {
+    width: 50%;
+  }
+
+  //   .mission-section::before {
+  //     background-image: url("../../assets/Frame\ 8470.png");
+  //   }
+}

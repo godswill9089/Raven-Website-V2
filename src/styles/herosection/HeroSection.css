@@ -22,13 +22,14 @@
   text-align: center;
   line-height: 6rem;
   margin-bottom: 2rem;
-  margin-top: 3.2rem;
+  margin-top: 15rem;
   color: rgb(11, 131, 118);
 }
 @media screen and (max-width: 600px) {
   .hero-container-wrapper .hero-texts > h1 {
     font-size: 4rem;
     line-height: 5rem;
+    margin-top: 15rem;
   }
 }
 .hero-container-wrapper .hero-texts > p {

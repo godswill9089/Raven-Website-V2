@@ -1,6 +1,6 @@
 .blog-list {
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 15rem auto;
   padding: 20px;
 }
 .blog-list .head-t {
@@ -16,6 +16,11 @@
 .blog-list .raven-r {
   font-size: 4rem;
   margin-bottom: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .blog-list .raven-r {
+    color: #014345;
+  }
 }
 .blog-list .tab-button {
   padding: 10px 20px;
@@ -55,11 +60,6 @@
   padding: 10px 0;
   border-bottom: 2px solid #e0e0e0;
 }
-@media screen and (max-width: 600px) {
-  .blog-list .tabs-container {
-    padding: 0 2rem 2rem;
-  }
-}
 .blog-list .-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -72,13 +72,16 @@
 }
 .blog-list .cardss {
   background-color: white;
-  padding: 20px;
+  padding: 1rem;
   border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
   .blog-list .cardss {
     padding: 0rem;
   }
+}
+.blog-list .card-cat {
+  position: relative;
 }
 .blog-list .cardss img {
   width: 100%;
@@ -90,12 +93,18 @@
 }
 .blog-list .blog-category {
   font-size: 12px;
-  color: #00b386;
+  background-color: rgba(224, 224, 224, 0.5215686275);
   text-transform: uppercase;
+  position: absolute;
+  padding: 1rem;
+  z-index: 2;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  border-radius: 1rem;
 }
 .blog-list .blog-date {
   font-size: 12px;
-  margin-left: 10px;
 }
 .blog-list .blog-title {
   font-size: 2rem;
@@ -107,6 +116,8 @@
   color: #00b386;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
+  gap: 1rem;
 }
 .blog-list .load-more {
   position: relative;

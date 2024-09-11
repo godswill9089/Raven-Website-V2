@@ -1,0 +1,102 @@
+.vision-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10rem;
+}
+.vision-mission .vision-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 55vh;
+  padding-left: 30rem;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .vision-mission .vision-section {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+  }
+}
+.vision-mission .mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  width: 100%;
+  padding-left: 30rem;
+  height: 55vh;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .vision-mission .mission-section {
+    padding-left: 5rem;
+    font-size: 1.5rem;
+  }
+}
+.vision-mission .vision-section {
+  background-color: rgb(240, 255, 249);
+}
+.vision-mission .mission-section {
+  background-color: #ffeadb;
+}
+.vision-mission .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .vision-mission .title {
+    font-size: 3rem !important;
+  }
+}
+.vision-mission .vision-section .title {
+  color: rgb(16, 188, 170);
+  font-size: 5rem;
+}
+.vision-mission .mission-section .title {
+  color: #f7931e;
+  font-size: 5rem;
+}
+.vision-mission .description {
+  font-size: 2rem;
+  color: #2e3a59;
+  line-height: 1.6;
+}
+.vision-mission .vision-section::before {
+  content: url("../../assets/Vector (3).png");
+  position: absolute;
+  top: 0;
+  left: 63%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50;
+}
+@media only screen and (max-width: 768px) {
+  .vision-mission .vision-section::before {
+    left: 0%;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+.vision-mission .mission-section::before {
+  content: url("../../assets/Vector (4).png");
+  position: absolute;
+  top: 0;
+  right: 63%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .vision-mission .mission-section::before {
+    right: 20%;
+    overflow: hidden;
+  }
+}
+.vision-mission .feda1 {
+  width: 50%;
+}/*# sourceMappingURL=VisionMission.css.map */

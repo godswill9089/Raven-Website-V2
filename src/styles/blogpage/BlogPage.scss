@@ -1,6 +1,6 @@
 .blog-list {
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 15rem auto;
   padding: 20px;
   @media screen and (max-width: 600px) {
     // padding: 0rem;
@@ -20,6 +20,9 @@
   .raven-r {
     font-size: 4rem;
     margin-bottom: 5rem;
+    @media screen and (max-width: 600px) {
+      color: #014345;
+    }
   }
 
   .tab-button {
@@ -61,7 +64,7 @@
     padding: 10px 0;
     border-bottom: 2px solid #e0e0e0;
     @media screen and (max-width: 600px) {
-      padding: 0 2rem 2rem;
+      //   padding: 0 2rem 2rem;
     }
   }
   .-container {
@@ -75,12 +78,16 @@
 
   .cardss {
     background-color: white;
-    padding: 20px;
+    padding: 1rem;
     border-radius: 10px;
     // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     @media screen and (max-width: 600px) {
       padding: 0rem;
     }
+  }
+
+  .card-cat {
+    position: relative;
   }
 
   .cardss img {
@@ -95,13 +102,20 @@
 
   .blog-category {
     font-size: 12px;
-    color: #00b386;
+    background-color: #e0e0e085;
     text-transform: uppercase;
+    position: absolute;
+    padding: 1rem;
+    z-index: 2;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    border-radius: 1rem;
   }
 
   .blog-date {
     font-size: 12px;
-    margin-left: 10px;
+    // margin-left: 10px;
   }
 
   .blog-title {
@@ -115,6 +129,8 @@
     color: #00b386;
     text-decoration: none;
     font-weight: bold;
+    display: flex;
+    gap: 1rem;
   }
 
   .load-more {

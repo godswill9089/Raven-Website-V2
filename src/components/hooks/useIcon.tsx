@@ -38,6 +38,18 @@ import vector2 from "../../assets/Vector (2).png";
 import menu from "../../assets/menu.png";
 import x from "../../assets/x.png";
 import cha from "../../assets/Chat_With_Rejoice2 2 (1).png";
+import pig from "../../assets/Mask group.png";
+import atm from "../../assets/Rectangle 1772 (2).png";
+import hand from "../../assets/Rectangle 1772 (3).png";
+import aboutherobanner from "../../assets/Frame 8512.png";
+import partner1 from "../../assets/image 2.png";
+import partner2 from "../../assets/image 3.png";
+import partner3 from "../../assets/image 4.png";
+import partner4 from "../../assets/image 5.png";
+import tablet from "../../assets/Group 8384.png";
+import iphon from "../../assets/iPhone (2).png";
+import fedar from "../../assets/Vector (3).png";
+import fedar2 from "../../assets/Vector (4).png";
 
 export const useIcon = () => {
   return {
@@ -73,6 +85,7 @@ export const useIcon = () => {
     playstore,
     applestore,
     link1,
+    fedar2,
     link2,
     link3,
     qr,
@@ -81,5 +94,16 @@ export const useIcon = () => {
     menu,
     x,
     cha,
+    pig,
+    atm,
+    hand,
+    aboutherobanner,
+    partner1,
+    partner2,
+    partner3,
+    partner4,
+    tablet,
+    iphon,
+    fedar,
   };
 };

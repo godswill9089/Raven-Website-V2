@@ -20,7 +20,7 @@
   .bg-color .app-showcase {
     display: block;
     height: 52rem;
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     margin-right: 0rem;
     margin-left: 0rem;
   }
@@ -53,6 +53,11 @@
 .bg-color .app-showcase .app-store-buttons {
   display: flex;
   gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .bg-color .app-showcase .app-store-buttons {
+    gap: 1rem;
+  }
 }
 .bg-color .app-showcase .store-button {
   width: 150px;
