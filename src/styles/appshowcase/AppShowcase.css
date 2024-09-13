@@ -59,6 +59,26 @@
     gap: 1rem;
   }
 }
+@media only screen and (max-width: 414px) {
+  .bg-color .app-showcase .app-store-buttons {
+    gap: 5rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .bg-color .app-showcase .app-store-buttons {
+    gap: 3rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .bg-color .app-showcase .app-store-buttons {
+    gap: 6rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .bg-color .app-showcase .app-store-buttons {
+    gap: 1rem;
+  }
+}
 .bg-color .app-showcase .store-button {
   width: 150px;
   cursor: pointer;

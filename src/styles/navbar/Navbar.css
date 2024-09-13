@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 600px) {
   .navbar {
-    padding: 3rem 3rem !important;
+    padding: 1rem 3rem !important;
     justify-content: space-between !important;
   }
 }

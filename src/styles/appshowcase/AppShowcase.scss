@@ -53,6 +53,18 @@
       @media only screen and (max-width: 768px) {
         gap: 1rem;
       }
+      @media only screen and (max-width: 414px) {
+        gap: 5rem;
+      }
+      @media only screen and (max-width: 390px) {
+        gap: 3rem;
+      }
+      @media only screen and (max-width: 430px) {
+        gap: 6rem;
+      }
+      @media only screen and (max-width: 360px) {
+        gap: 1rem;
+      }
     }
     .store-button {
       width: 150px;
