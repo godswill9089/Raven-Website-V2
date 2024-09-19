@@ -147,7 +147,7 @@ const Navbar: React.FC = () => {
         {
           header: "Careers",
           text: "Join the Raven team to make Raven better",
-          route: "/",
+          route: ROUTENAMES?.WEBSITE_CAREER,
           image: hand,
         },
         {
@@ -165,7 +165,7 @@ const Navbar: React.FC = () => {
     <>
       <nav className={`navbar ${isScrolled ? "scrolled" : ""}`} ref={navbarRef}>
         <div className="navbar-logo">
-          <NavLink to="/">
+          <NavLink to={ROUTENAMES?.WEBSITE_HOME}>
             <img src={logo} alt="RavenBank Logo" />
           </NavLink>
         </div>
@@ -190,7 +190,7 @@ const Navbar: React.FC = () => {
                 className="nav-link-wrapper"
                 aria-expanded={openDropdownIndex === index}
               >
-                <NavLink to={link.route} className="link-path">
+                <NavLink to={""} className="link-path">
                   {link.text}
                 </NavLink>
 

@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/footer/Footer.css";
 import { useIcon } from "../hooks/useIcon";
 import { NavLink } from "react-router-dom";
+import { ROUTENAMES } from "../../routes/RouteNames";
 
 const Footer: React.FC = () => {
   const { link1, link2, link3, qr } = useIcon();
@@ -34,7 +35,10 @@ const Footer: React.FC = () => {
             <ul>
               <li>About Us</li>
               <li>Careers</li>
-              <NavLink to="/blogpage" className="read-more-button">
+              <NavLink
+                to={ROUTENAMES?.WEBSITE_BLOGPAGE}
+                // className="read-more-button"
+              >
                 Blog
               </NavLink>
               <li>Privacy Policy</li>
@@ -47,7 +51,12 @@ const Footer: React.FC = () => {
               <li>FAQ</li>
               <li>Support</li>
               <li>Talk to our Mascot</li>
-              <li>Security</li>
+              <NavLink
+                to={ROUTENAMES?.WEBSITE_SECURITY}
+                // className="read-more-button"
+              >
+                Security
+              </NavLink>
             </ul>
           </div>
           <div className="footer-qr-social">

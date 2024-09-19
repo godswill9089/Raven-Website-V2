@@ -14,7 +14,9 @@ const AboutUshero: React.FC = () => {
     <>
       <div className="wrapper-about">
         {/* Navbar */}
-        <Navbar />
+        <div className="nav-place">
+          <Navbar />
+        </div>
         <div className="top-wrapper-about">
           <div className="">
             {/* Main Section */}

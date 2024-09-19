@@ -50,9 +50,35 @@ import tablet from "../../assets/Group 8384.png";
 import iphon from "../../assets/iPhone (2).png";
 import fedar from "../../assets/Vector (3).png";
 import fedar2 from "../../assets/Vector (4).png";
+import team1 from "../../assets/Group 8690.png";
+import vibe1 from "../../assets/Group 8491.png";
+import vibe2 from "../../assets/Group 8491 (1).png";
+import viberight1 from "../../assets/Group 8696.png";
+import ravenstyle from "../../assets/Frame 8714.png";
+import perk1 from "../../assets/Vector (7).png";
+import perk2 from "../../assets/Vector (8).png";
+import perk3 from "../../assets/path13638.png";
+import perk4 from "../../assets/Vector (9).png";
+import perk5 from "../../assets/Group (3).png";
+import linkjobs from "../../assets/arrow-up-right.png";
+import teamsecond from "../../assets/Group 8712.png";
+import teamfirst from "../../assets/Rectangle 653.png";
+import teamfirsticon from "../../assets/Vector (11).png";
+import halfguy from "../../assets/Rectangle 2.png";
+import teamgal from "../../assets/Rectangle 653 (1).png";
+import teamgalicon from "../../assets/Group 8711.png";
+import securityherobanner from "../../assets/Frame 9008.png";
+import poweredbyimg from "../../assets/Rectangle 3.png";
 
 export const useIcon = () => {
   return {
+    teamsecond,
+    poweredbyimg,
+    teamgalicon,
+    securityherobanner,
+    teamgal,
+    halfguy,
+    teamfirsticon,
     logo,
     dropdown,
     oldwoman,
@@ -93,8 +119,10 @@ export const useIcon = () => {
     vector2,
     menu,
     x,
+    linkjobs,
     cha,
     pig,
+    teamfirst,
     atm,
     hand,
     aboutherobanner,
@@ -105,5 +133,15 @@ export const useIcon = () => {
     tablet,
     iphon,
     fedar,
+    team1,
+    vibe1,
+    vibe2,
+    viberight1,
+    ravenstyle,
+    perk1,
+    perk2,
+    perk3,
+    perk4,
+    perk5,
   };
 };

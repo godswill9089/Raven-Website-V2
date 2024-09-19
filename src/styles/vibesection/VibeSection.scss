@@ -1,0 +1,113 @@
+.vibe-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //   padding: 50px;
+  margin-top: 10rem;
+  @media only screen and (max-width: 768px) {
+    margin-top: 10rem;
+    display: block;
+  }
+
+  .vibe-content {
+    flex: 1;
+    margin-right: 50px;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  .highlight {
+    color: #f4a261; /* Orange color */
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    // margin-bottom: 2rem;
+  }
+
+  .vibe-block {
+    display: flex;
+    gap: 4rem;
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  .vibe-item h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .ravenstyle {
+    margin-top: 4rem;
+  }
+
+  .vibe {
+    margin-bottom: 1rem;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .vibe-text {
+    color: rgba(103, 103, 103, 1);
+    line-height: 2.5rem;
+    width: 100%;
+  }
+
+  .icon-lightning {
+    background: url("") no-repeat center center;
+    background-size: contain;
+  }
+
+  .icon-controller {
+    background: url("") no-repeat center center;
+    background-size: contain;
+  }
+
+  /* Image Masking */
+  .vibe-image {
+    flex: 1;
+  }
+
+  .image-mask {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    mask-size: cover;
+    overflow: hidden;
+  }
+
+  .image-topp {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    margin-top: 10rem;
+    @media only screen and (max-width: 768px) {
+      width: 50%;
+      margin-top: 5rem;
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .image-bottom {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: -5px; /* Adjust for overlap effect */
+  }
+}

@@ -1,0 +1,118 @@
+.gen-security-wrapper {
+  font-family: "Arial", sans-serif;
+  .security-main-wrapper {
+    //   margin-top: 15rem;
+    background-color: rgba(240, 248, 255, 1);
+    height: 82vh;
+    position: relative;
+    font-family: "Arial", sans-serif;
+
+    .security-content {
+      padding-top: 15rem;
+      position: relative;
+      // height: 50vh;
+      .security-p {
+        margin: 0 17rem;
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 1rem;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .security-head {
+        font-size: 5rem;
+        padding: 0 17rem;
+      }
+
+      .security-banner {
+        position: absolute;
+        top: 50%;
+      }
+    }
+  }
+
+  /* Main card container */
+  .card-secure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    // padding: 0 17rem;
+    // max-width: 900px;
+    width: 76%;
+    margin-right: 17rem !important;
+    margin-left: 17rem;
+    position: absolute;
+    // left: 17%;
+    top: 60%;
+    overflow: hidden;
+  }
+
+  /* Flex container for the content */
+  .card-content-secure {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    width: 100%;
+    padding: 3rem;
+  }
+
+  /* Left side: bird and safe image */
+  .image-container-secure {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(232, 255, 246, 1);
+    padding-top: 6rem;
+    padding-left: 10rem;
+    border-radius: 2rem;
+  }
+
+  .bird-image-secure {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Right side: Text and logos */
+  .text-content-secure {
+    flex: 2;
+    padding-left: 20px;
+  }
+
+  .text-content-secure h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10rem;
+    margin-top: 7rem;
+    font-family: "Arial", sans-serif;
+    line-height: 3rem;
+  }
+
+  .logos-secure {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-secure {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .logo-image-secure {
+    // width: 50px;
+    height: auto;
+    // margin-right: 10px;
+  }
+
+  .logo-secure p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+}

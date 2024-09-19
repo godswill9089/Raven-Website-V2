@@ -1,0 +1,93 @@
+/* Main container */
+.perks-section {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  font-family: "Arial", sans-serif;
+  /* Grid layout for the perks */
+  /* Wrapper for the icon */
+  /* Outer semicircle with light green */
+  /* Inner semicircle with darker green for layered effect */
+  /* Text inside the semicircle */
+}
+.perks-section .perks-header {
+  margin-bottom: 30px;
+}
+.perks-section .perks-label {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  background-color: #e0f7fa; /* Light green background */
+  color: #00695c; /* Dark green text */
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.perks-section h2 {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #003d33; /* Dark green for heading */
+}
+.perks-section .perks-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .perks-section .perks-grid {
+    display: block;
+    gap: 3rem;
+  }
+}
+.perks-section .perk-text {
+  border-right: 1px solid rgb(230, 230, 230);
+}
+@media only screen and (max-width: 768px) {
+  .perks-section .perk-text {
+    margin-bottom: 3rem;
+    border-right: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+}
+.perks-section .perk-text p {
+  font-size: 1.5rem;
+  margin-top: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+.perks-section .icon-wrapper {
+  position: relative;
+  width: 72px; /* width of the icon */
+  height: 72px; /* height of the icon */
+}
+.perks-section .outer-semicircle {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(194, 239, 222); /* Light green */
+  border-bottom-right-radius: 100px;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  justify-content: center;
+  align-items: center;
+}
+.perks-section .inner-semicircle {
+  width: 95%;
+  height: 80%;
+  background-color: rgb(232, 255, 246); /* Darker green */
+  border-bottom-right-radius: 100px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perks-section .icon-text {
+  font-size: 24px;
+  color: #00695c; /* Dark green text color */
+  font-weight: bold;
+}/*# sourceMappingURL=PerksSection.css.map */

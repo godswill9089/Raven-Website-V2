@@ -7,6 +7,12 @@
     height: 45vh;
   }
 
+  .nav-place {
+    @media only screen and (max-width: 768px) {
+      background-color: none;
+    }
+  }
+
   .main-section {
     justify-content: space-between;
     padding: 2rem 17rem;
