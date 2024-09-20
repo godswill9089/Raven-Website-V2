@@ -5,4 +5,5 @@ export const ROUTENAMES = {
     WEBSITE_ABOUT: "/about-us",
     WEBSITE_CAREER: "/careerpage",
     WEBSITE_SECURITY: "/security",
+    WEBSITE_PRIVACY: "/privacy",
 }

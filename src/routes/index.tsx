@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import { ROUTENAMES } from "./RouteNames";
 import CareerPage from "../pages/careerpage/CareerPage";
 import SecurityPage from "../pages/securitypage/SecurityPage";
+import PrivacyPage from "../pages/privacypage/PrivacyPage";
 
 export const routes_group = [
   { path: ROUTENAMES?.WEBSITE_HOME, element: <Home /> },
@@ -22,5 +23,9 @@ export const routes_group = [
   {
     path: ROUTENAMES?.WEBSITE_SECURITY,
     element: <SecurityPage />,
+  },
+  {
+    path: ROUTENAMES?.WEBSITE_PRIVACY,
+    element: <PrivacyPage />,
   },
 ];

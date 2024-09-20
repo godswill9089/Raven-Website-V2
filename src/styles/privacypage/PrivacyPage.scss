@@ -1,0 +1,151 @@
+.privacy-wrapper-main {
+  background-color: rgba(255, 246, 237, 1);
+  height: 65vh;
+  .privacy-hero-section {
+    // background-color: rgba(255, 246, 237, 1);
+    // margin-top: 15rem;
+    padding: 0 14rem;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+      padding: 0 2rem;
+    }
+  }
+  .privacy-policy-page {
+    // padding: 0 40px;
+    height: 70vh;
+  }
+  /* Main Content Styles */
+  .main-contents {
+    padding-top: 15rem;
+    // text-align: left;
+  }
+
+  .policy-tag {
+    background-color: rgba(255, 230, 205, 1); /* Light orange background */
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    color: rgba(234, 135, 45, 1);
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  h1 {
+    font-size: 5rem;
+    margin-top: 20px;
+    font-weight: 700;
+    @media only screen and (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .pri-hero {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 2.5rem;
+  }
+
+  /* Bottom Icons */
+  .bottom-icons {
+    margin-top: 100px;
+  }
+
+  .icon {
+    // width: 60px;
+    // height: 60px;
+    // background-color: #f4b683; /* Light orange background */
+    // border-radius: 8px;
+    // margin-top: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .privacy-tabs-container {
+    // display: flex;
+    margin-top: 5rem;
+  }
+  .privacy-h1 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+    line-height: 4rem;
+    @media only screen and (max-width: 768px) {
+      text-align: left;
+    }
+  }
+  .tabs-content {
+    display: flex;
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  .tabs-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .tabs-list ul {
+    list-style-type: none;
+    padding: 0;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .tabs-list li {
+    cursor: pointer;
+    padding: 1.5rem;
+    margin-bottom: 10px;
+    // background-color: #f0f0f0;
+    font-size: 1.5rem;
+    // border-radius: 5px;
+    border-right: 4px solid transparent; /* Default to no border */
+  }
+
+  .tabs-list li.active {
+    border-right: 4px solid rgba(11, 131, 118, 1); /* Red border for active tab */
+    color: rgba(11, 131, 118, 1);
+    background: linear-gradient(
+      269.63deg,
+      #e8fff6 0.19%,
+      rgba(232, 255, 246, 0) 137.89%
+    );
+  }
+
+  .tabs-list li:hover {
+    // background-color: #ddd;
+  }
+
+  .pri-dec {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(229, 230, 230, 1);
+    padding: 2rem;
+    line-height: 3rem !important;
+    border-radius: 1rem;
+  }
+
+  .tab-panels {
+    flex: 3;
+  }
+
+  .tab-panels h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .tab-panels section {
+    padding: 20px;
+    margin-bottom: 40px;
+    // background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+}

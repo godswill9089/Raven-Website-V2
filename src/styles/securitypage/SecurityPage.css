@@ -36,6 +36,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    margin-top: 4.5rem;
   }
 }
 .gen-security-wrapper .security-main-wrapper .security-content .security-head {
@@ -48,6 +49,7 @@
   .gen-security-wrapper .security-main-wrapper .security-content .security-head {
     padding: 0 2rem;
     text-align: center;
+    font-size: 2.5rem;
   }
 }
 .gen-security-wrapper .security-main-wrapper .security-content .security-banner {

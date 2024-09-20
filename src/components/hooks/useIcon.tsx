@@ -74,9 +74,11 @@ import securetease from "../../assets/Raven_Teaser_Video_Styleframe_SpencerZill 
 import securephone from "../../assets/Vector copy.png";
 import secureemail from "../../assets/Vector copy 2.png";
 import ravenbird from "../../assets/Vectorraven-stand-logo-green.svg";
+import privcy from "../../assets/Frame 8714 (1).png";
 
 export const useIcon = () => {
   return {
+    privcy,
     securetease,
     ravenbird,
     secureemail,

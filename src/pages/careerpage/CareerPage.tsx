@@ -6,7 +6,6 @@ import Navbar from "../../components/navbar/Navbar";
 import VibeSection from "../../components/section/career/vibesection/VibeSection";
 import PerksSection from "../../components/section/career/perkssection/PerksSection";
 import JobList from "../../components/section/career/jobList/JobList";
-import Footer from "../../components/footer/Footer";
 import AppShowcase from "../../components/section/Home/appshowcase/AppShowcase";
 
 const CareerPage = () => {
