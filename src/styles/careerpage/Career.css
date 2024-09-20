@@ -1,5 +1,5 @@
 .career-wrapper-section {
-  padding: 0 17rem;
+  padding: 0 14rem;
   margin-top: 15rem;
   /* src/components/JobListings.css */
   /* Add flip rotation when loading */
@@ -7,7 +7,6 @@
 @media only screen and (max-width: 768px) {
   .career-wrapper-section {
     padding: 0 2rem;
-    margin-top: 10rem;
   }
 }
 .career-wrapper-section .career-flx {
@@ -71,7 +70,7 @@
 .career-wrapper-section .job-listings {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 3rem;
   margin-top: 5rem;
   position: relative;
 }
@@ -197,7 +196,7 @@
 }
 @media only screen and (max-width: 768px) {
   .career-wrapper-section .profile-card-1 {
-    top: 45%;
+    top: 50%;
     left: 3rem;
     border-radius: 11rem 11rem 11rem 11rem;
     width: 25%;
@@ -217,7 +216,7 @@
 }
 @media only screen and (max-width: 768px) {
   .career-wrapper-section .profile-card-0 {
-    top: 45%;
+    top: 50%;
     left: 18rem;
     width: 23%;
   }
@@ -270,7 +269,7 @@
 }
 @media only screen and (max-width: 768px) {
   .career-wrapper-section .profile-card-3 {
-    top: 45%;
+    top: 50%;
     padding: 2rem;
     left: 32rem;
     gap: 6rem;

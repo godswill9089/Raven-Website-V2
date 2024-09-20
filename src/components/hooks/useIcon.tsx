@@ -69,10 +69,20 @@ import teamgal from "../../assets/Rectangle 653 (1).png";
 import teamgalicon from "../../assets/Group 8711.png";
 import securityherobanner from "../../assets/Frame 9008.png";
 import poweredbyimg from "../../assets/Rectangle 3.png";
+import secureb from "../../assets/Rectangle 768.png";
+import securetease from "../../assets/Raven_Teaser_Video_Styleframe_SpencerZill 1.png";
+import securephone from "../../assets/Vector copy.png";
+import secureemail from "../../assets/Vector copy 2.png";
+import ravenbird from "../../assets/Vectorraven-stand-logo-green.svg";
 
 export const useIcon = () => {
   return {
+    securetease,
+    ravenbird,
+    secureemail,
+    securephone,
     teamsecond,
+    secureb,
     poweredbyimg,
     teamgalicon,
     securityherobanner,

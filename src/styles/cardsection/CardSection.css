@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  padding: 0 17rem;
+  padding: 0 14rem;
   margin-top: 6rem;
 }
 @media screen and (max-width: 600px) {
@@ -34,8 +34,8 @@
 .grid-container .data {
   width: 50% !important;
   /* margin-left: 20rem; */
-  top: 20.3rem;
-  left: 27rem;
+  top: 19rem;
+  left: 28rem;
   bottom: rem;
 }
 @media only screen and (max-width: 600px) {
@@ -54,8 +54,8 @@
   width: 50% !important;
   /* margin-left: 22.5rem; */
   /* margin-top: 6.5rem !important; */
-  top: 14rem;
-  left: 26.6rem;
+  top: 12rem;
+  left: 28rem;
 }
 @media screen and (max-width: 600px) {
   .grid-container .secured {
@@ -73,8 +73,8 @@
   width: 46.4% !important;
   /* margin-left: 23rem; */
   /* margin-top: 6.7rem !important; */
-  top: 16.3rem;
-  left: 29rem;
+  top: 14.5rem;
+  left: 30rem;
 }
 @media screen and (max-width: 600px) {
   .grid-container .save {

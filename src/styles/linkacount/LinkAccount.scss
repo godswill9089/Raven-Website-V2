@@ -7,7 +7,7 @@
 
   .link-content-wrapper {
     display: flex;
-    padding: 0 17rem;
+    padding: 0 14rem;
     width: 100%;
   }
   @media screen and (max-width: 600px) {
@@ -73,7 +73,7 @@
     display: flex;
     justify-content: center;
     margin-top: 5rem;
-    padding: 0 17rem;
+    // padding: 0 17rem;
     @media screen and (max-width: 600px) {
       padding: 0 2rem;
     }

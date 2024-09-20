@@ -1,11 +1,11 @@
 .career-wrapper-section {
-  padding: 0 17rem;
+  padding: 0 14rem;
   margin-top: 15rem;
   //   position: relative;
   @media only screen and (max-width: 768px) {
     padding: 0 2rem;
     // text-align: center;
-    margin-top: 10rem;
+    // margin-top: 10rem;
   }
 
   .career-flx {
@@ -74,7 +74,7 @@
   .job-listings {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 3rem;
     margin-top: 5rem;
     position: relative;
     @media only screen and (max-width: 768px) {
@@ -204,7 +204,7 @@
     animation: slideInFromtop 2s ease-out;
     @media only screen and (max-width: 768px) {
       //   padding: 0 2rem;
-      top: 45%;
+      top: 50%;
       left: 3rem;
       border-radius: 11rem 11rem 11rem 11rem;
       width: 25%;
@@ -225,7 +225,7 @@
     animation: flipAndRotate 1s ease-out; // height: 50%;
     @media only screen and (max-width: 768px) {
       //   padding: 0 2rem;
-      top: 45%;
+      top: 50%;
       left: 18rem;
       width: 23%;
       //   left: 0;
@@ -283,7 +283,7 @@
     animation: slideInFromBottom 4s ease-out;
     @media only screen and (max-width: 768px) {
       //   padding: 0 2rem;
-      top: 45%;
+      top: 50%;
       //   left: 0;
       padding: 2rem;
       left: 32rem;
