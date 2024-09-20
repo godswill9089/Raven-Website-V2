@@ -75,9 +75,11 @@ import securephone from "../../assets/Vector copy.png";
 import secureemail from "../../assets/Vector copy 2.png";
 import ravenbird from "../../assets/Vectorraven-stand-logo-green.svg";
 import privcy from "../../assets/Frame 8714 (1).png";
+import termsicon from "../../assets/Frame 8714 (2).png";
 
 export const useIcon = () => {
   return {
+    termsicon,
     privcy,
     securetease,
     ravenbird,

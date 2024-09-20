@@ -49,7 +49,15 @@ const Footer: React.FC = () => {
                   Privacy Policy
                 </NavLink>
               </li>
-              <li>Terms & Conditions</li>
+              <li>
+                {" "}
+                <NavLink
+                  to={ROUTENAMES?.WEBSITE_TERMS}
+                  // className="read-more-button"
+                >
+                  Terms & Conditions
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className="footer-section">

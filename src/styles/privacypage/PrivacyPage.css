@@ -25,7 +25,6 @@
   border-radius: 2rem;
   font-size: 1.5rem;
   color: rgb(234, 135, 45);
-  font-weight: bold;
 }
 @media only screen and (max-width: 768px) {
   .privacy-wrapper-main .policy-tag {
@@ -34,7 +33,7 @@
 }
 .privacy-wrapper-main h1 {
   font-size: 5rem;
-  margin-top: 20px;
+  margin-top: 3rem;
   font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
@@ -72,6 +71,7 @@
 }
 .privacy-wrapper-main .tabs-content {
   display: flex;
+  position: relative;
 }
 @media only screen and (max-width: 768px) {
   .privacy-wrapper-main .tabs-content {
@@ -85,6 +85,7 @@
 .privacy-wrapper-main .tabs-list ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 1rem;
 }
 @media only screen and (max-width: 768px) {
   .privacy-wrapper-main .tabs-list ul {
@@ -110,6 +111,11 @@
   line-height: 3rem !important;
   border-radius: 1rem;
 }
+@media only screen and (max-width: 768px) {
+  .privacy-wrapper-main .pri-dec {
+    text-align: justify;
+  }
+}
 .privacy-wrapper-main .tab-panels {
   flex: 3;
 }
@@ -117,8 +123,12 @@
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 768px) {
+  .privacy-wrapper-main .tab-panels h3 {
+    text-align: left;
+  }
+}
 .privacy-wrapper-main .tab-panels section {
   padding: 20px;
-  margin-bottom: 40px;
   border-radius: 5px;
 }/*# sourceMappingURL=PrivacyPage.css.map */

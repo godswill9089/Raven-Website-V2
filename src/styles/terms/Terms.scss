@@ -1,0 +1,192 @@
+.terms-wrapper-mains {
+  background-color: rgba(232, 255, 246, 1);
+  height: 65vh;
+
+  .terms-hero-sections {
+    // background-color: rgba(255, 246, 237, 1);
+    // margin-top: 15rem;
+    padding: 0 14rem;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+      padding: 0 2rem;
+    }
+  }
+
+  .terms-conditions-page {
+    height: 70vh;
+  }
+
+  .main-content {
+    padding-top: 15rem;
+    @media only screen and (max-width: 768px) {
+      padding-top: 18rem;
+    }
+  }
+
+  .policy-tags {
+    background-color: rgba(217, 245, 234, 1);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    color: rgba(1, 67, 69, 1);
+    // font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  .terms-h1 {
+    margin-top: 3rem;
+    font-size: 5rem;
+    @media only screen and (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .terms-des {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 2.5rem;
+  }
+
+  .bottom-icons {
+    margin-top: 10rem;
+  }
+
+  /* TermsTabs.css */
+  .terms-tabs-container {
+    // display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    // padding: 20px;
+  }
+
+  /* Header Styling */
+  //   header {
+  //     text-align: center;
+  //     margin-bottom: 30px;
+  //     di
+  //   }
+
+  header h2 {
+    font-size: 28px;
+    color: #333;
+  }
+
+  header p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+
+  /* Tabs Content Area */
+  .tabs-content {
+    display: flex;
+    margin-top: 5rem;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      margin-top: 0rem;
+    }
+  }
+
+  /* Tabs List Styling */
+  .tabs-list {
+    flex: 0 0 25%;
+    padding-right: 20px;
+  }
+
+  .tabs-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .tabs-list li {
+    padding: 1.5rem;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    // background-color: #f4f4f4;
+    // border: 1px solid #ddd;
+    // border-radius: 5px;
+    // transition: background-color 0.3s ease;
+  }
+
+  .tabs-list li:hover {
+    // background-color: #e0e0e0;
+  }
+
+  .tabs-list li.active {
+    border-right: 4px solid rgb(11, 131, 118);
+    color: rgb(11, 131, 118);
+    background: linear-gradient(
+      269.63deg,
+      #e8fff6 0.19%,
+      rgba(232, 255, 246, 0) 137.89%
+    );
+  }
+
+  /* Tabs Panels Styling */
+  .tab-panels {
+    flex: 1;
+    padding: 1rem;
+    // border-left: 1px solid #ddd;
+  }
+
+  .tab-panels section {
+    margin-bottom: 30px;
+  }
+
+  .tab-panels h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    @media only screen and (max-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  .tab-panels p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    border: 1px solid rgba(229, 230, 230, 1);
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 3rem;
+    @media only screen and (max-width: 768px) {
+      text-align: justify;
+      //   line-height: 1rem;
+    }
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .terms-tabs-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .tabs-content {
+      flex-direction: column;
+    }
+
+    .tabs-list {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    .tab-panels {
+      padding-left: 0;
+      border-left: none;
+    }
+  }
+}

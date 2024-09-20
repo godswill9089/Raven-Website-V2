@@ -26,7 +26,7 @@
     border-radius: 2rem;
     font-size: 1.5rem;
     color: rgba(234, 135, 45, 1);
-    font-weight: bold;
+    // font-weight: bold;
     @media only screen and (max-width: 768px) {
       font-size: 1.3rem;
     }
@@ -34,7 +34,7 @@
 
   h1 {
     font-size: 5rem;
-    margin-top: 20px;
+    margin-top: 3rem;
     font-weight: 700;
     @media only screen and (max-width: 768px) {
       font-size: 2.5rem;
@@ -51,14 +51,6 @@
   /* Bottom Icons */
   .bottom-icons {
     margin-top: 100px;
-  }
-
-  .icon {
-    // width: 60px;
-    // height: 60px;
-    // background-color: #f4b683; /* Light orange background */
-    // border-radius: 8px;
-    // margin-top: 20px;
   }
 
   html {
@@ -83,6 +75,7 @@
   }
   .tabs-content {
     display: flex;
+    position: relative;
     @media only screen and (max-width: 768px) {
       display: block;
     }
@@ -96,6 +89,7 @@
   .tabs-list ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 1rem;
     @media only screen and (max-width: 768px) {
       display: none;
     }
@@ -121,16 +115,16 @@
     );
   }
 
-  .tabs-list li:hover {
-    // background-color: #ddd;
-  }
-
   .pri-dec {
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(229, 230, 230, 1);
     padding: 2rem;
     line-height: 3rem !important;
     border-radius: 1rem;
+    @media only screen and (max-width: 768px) {
+      text-align: justify;
+      //   line-height: 1rem;
+    }
   }
 
   .tab-panels {
@@ -140,11 +134,14 @@
   .tab-panels h3 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    @media only screen and (max-width: 768px) {
+      text-align: left;
+    }
   }
 
   .tab-panels section {
     padding: 20px;
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     // background-color: #f9f9f9;
     border-radius: 5px;
   }
